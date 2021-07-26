@@ -30,7 +30,7 @@ const submitNote = () => {
             document.querySelector('#noteTitle').value = "";
             document.querySelector('#noteTag').value = "";
 
-        })
+        }) 
         .catch((error)=>{
             alert("Your note has not been added, try again");
         });

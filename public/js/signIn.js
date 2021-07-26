@@ -13,11 +13,10 @@ const signIn = (typeOfProvider) =>{
 
             console.log(user.uid);
             window.location = 'writeNote.html';
-        })
+        }) 
         .catch(error=>{
             //somehing bad happened :(
             console.log(error);
-
         });
     }
     else if(typeOfProvider === 'Email'){
